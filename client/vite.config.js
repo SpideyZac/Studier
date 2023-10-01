@@ -10,5 +10,8 @@ export default defineConfig({
   },
   optimizeDeps: {
     exclude: ["minisearch"]
+  },
+  server: {
+    host: "0.0.0.0",
   }
 })

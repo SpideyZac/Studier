@@ -14,7 +14,7 @@
     <main class="p-5">
         <h1 class="text-4xl">Notecards:</h1> 
         <br />
-        <div class="grid grid-flow-col gap-x-10 overflow-x-auto">
+        <div class="flex gap-x-10 gap-y-10 flex-wrap">
             {#each {length: res.length} as _, i}
                 <Link to={`/notecards/${res[i].id}`} class="bg-white text-black text-xl text-center items-center justify-center rounded-lg p-3 min-w-[100px]">
                     {res[i].name}

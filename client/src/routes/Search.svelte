@@ -50,7 +50,7 @@
         <input bind:value={searchQuery} class="text-black rounded-lg text-2xl text-center" />
         <button on:click={() => handleSearch()} class="text-black bg-white p-1 rounded-lg text-lg">Search!</button>
         <br />
-        <div class="grid p-5 grid-flow-col gap-x-10 overflow-x-auto">
+        <div class="p-5 flex gap-x-10 gap-y-10 flex-wrap">
             {#each {length: results.length} as _, i}
                 <Link to={`/notecards/${results[i].id}`} class="bg-white text-black text-xl text-center items-center justify-center rounded-lg p-3 min-w-[100px]">
                     {results[i].name}

@@ -14,7 +14,7 @@
 
 <TailwindCss />
 
-<div class="bg-gradient-to-br from-blue-950 to-blue-600 min-h-screen min-w-screen font-mono text-white">
+<div class="bg-gradient-to-br from-blue-950 to-blue-600 min-h-screen min-w-screen h-max x-max font-mono text-white">
   <Router {url}>
     <nav class="sticky top-0 right-0 inline-flex items-center h-16 w-full z-10 max-w-full">
       <div class="inline-flex relative items-center gap-x-10 ml-10 text-2xl">
